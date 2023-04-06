@@ -109,8 +109,9 @@ ALTER TABLE data_mahasiswa ADD CONSTRAINT unique_email unique (email);
 
 3.2. SCREENSHOT OUTPUT
 
-![App Screenshot](https://ibb.co/QkHM97B)
-![App Screenshot](https://ibb.co/fNLptLT)
+https://ibb.co/QkHM97B
+
+https://ibb.co/fNLptLT
 ## BAB III LANGKAH-LANGKAH PEMBUATAN
 
 3.1. LANGKAH-LANGKAH
@@ -146,8 +147,9 @@ ALTER TABLE data_mahasiswa ADD CONSTRAINT unique_email unique (email);
 
 3.2. SCREENSHOT OUTPUT
 
-![App Screenshot](https://ibb.co/QkHM97B)
-![App Screenshot](https://ibb.co/fNLptLT)
+https://ibb.co/QkHM97B
+
+https://ibb.co/fNLptLT
 
 ## BAB IV PENUTUP
 4.1. KESIMPULAN
