@@ -76,6 +76,9 @@ ALTER TABLE [nama tabel] DROP CONSTRAINT [nama constraint];
 
 ## BAB III LANGKAH-LANGKAH PEMBUATAN
 
+3.1. LANGKAH-LANGKAH
+
+
 CREATE DATABASE latihan2;
 
 USE latihan2;
@@ -104,8 +107,15 @@ ALTER TABLE data_mahasiswa ADD PRIMARY KEY(nim);
 
 ALTER TABLE data_mahasiswa ADD CONSTRAINT unique_email unique (email);
 
+3.2. SCREENSHOT OUTPUT
+
+![App Screenshot](https://ibb.co/QkHM97B)
+![App Screenshot](https://ibb.co/fNLptLT)
 ## BAB III LANGKAH-LANGKAH PEMBUATAN
 
+3.1. LANGKAH-LANGKAH
+
+
 CREATE DATABASE latihan2;
 
 USE latihan2;
@@ -134,10 +144,16 @@ ALTER TABLE data_mahasiswa ADD PRIMARY KEY(nim);
 
 ALTER TABLE data_mahasiswa ADD CONSTRAINT unique_email unique (email);
 
+3.2. SCREENSHOT OUTPUT
+
+![App Screenshot](https://ibb.co/QkHM97B)
+![App Screenshot](https://ibb.co/fNLptLT)
 
 ## BAB IV PENUTUP
-3.1. KESIMPULAN
-    Praktikum membuat tabel dalam MySQL menggunakan XAMPP dan Git merupakan salah satu cara untuk memperoleh pemahaman dasar tentang cara membuat tabel dalam database MySQL. Dalam praktikum ini, peserta mempelajari bahwa MySQL adalah salah satu database management system (DBMS) yang paling populer dan banyak digunakan di seluruh dunia. XAMPP adalah salah satu paket software yang memungkinkan penggunaan MySQL, PHP, dan Apache dalam lingkungan lokal.
+4.1. KESIMPULAN
+
+
+ Praktikum membuat tabel dalam MySQL menggunakan XAMPP dan Git merupakan salah satu cara untuk memperoleh pemahaman dasar tentang cara membuat tabel dalam database MySQL. Dalam praktikum ini, peserta mempelajari bahwa MySQL adalah salah satu database management system (DBMS) yang paling populer dan banyak digunakan di seluruh dunia. XAMPP adalah salah satu paket software yang memungkinkan penggunaan MySQL, PHP, dan Apache dalam lingkungan lokal.
 
 Selama praktikum, peserta belajar bagaimana membuat tabel dalam MySQL menggunakan perintah CREATE TABLE. Namun, sebelum membuat tabel, pengguna harus terlebih dahulu membuat database. Setelah database dibuat, pengguna dapat memulai membuat tabel dengan mengidentifikasi kolom atau field yang dibutuhkan dan jenis data yang cocok untuk setiap kolom tersebut.
 
