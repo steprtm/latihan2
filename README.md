@@ -112,44 +112,7 @@ ALTER TABLE data_mahasiswa ADD CONSTRAINT unique_email unique (email);
 https://ibb.co/QkHM97B
 
 https://ibb.co/fNLptLT
-## BAB III LANGKAH-LANGKAH PEMBUATAN
 
-3.1. LANGKAH-LANGKAH
-
-
-CREATE DATABASE latihan2;
-
-USE latihan2;
-
-CREATE TABLE biodata (mama varchar(100), alamat text);
-
-ALTER TABLE biodata ADD COLUMN keterangan varchar(15);
-
-ALTER TABLE biodata ADD COLUMN id int(11) FIRST;
-
-ALTER TABLE biodata ADD COLUMN phone varchar(15) AFTER alamat;
-
-ALTER TABLE biodata MODIFY COLUMN id char(11);
-
-ALTER TABLE biodata CHANGE phone hp varchar(20);
-
-ALTER TABLE biodata ADD COLUMN email varchar(40) AFTER hp;
-
-ALTER TABLE biodata DROP COLUMN keterangan;
-
-RENAME TABLE biodata TO data_mahasiswa;
-
-ALTER TABLE data_mahasiswa CHANGE id nim varchar(255);
-
-ALTER TABLE data_mahasiswa ADD PRIMARY KEY(nim);
-
-ALTER TABLE data_mahasiswa ADD CONSTRAINT unique_email unique (email);
-
-3.2. SCREENSHOT OUTPUT
-
-https://ibb.co/QkHM97B
-
-https://ibb.co/fNLptLT
 
 ## BAB IV PENUTUP
 4.1. KESIMPULAN
